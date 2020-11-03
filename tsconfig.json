@@ -23,7 +23,7 @@
     "noUnusedParameters": true,
     "experimentalDecorators": true,
     "noFallthroughCasesInSwitch": true,
-    "isolatedModules": true
+    "isolatedModules": true,
   },
   "include": [
     "src/**/*"

@@ -1,10 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './pages/app/App';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
-import store from './redux/store'
+import store from './app/redux/store'
+// import Data from './components/data-comp/data.comp'
+import LoginPage from './app/pages/login-page/LoginPage'
+
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      {/* <Data /> */}
+      {<LoginPage />}
+    </div>
+  );
+}
+
 
 ReactDOM.render(
   <Provider store={store}>

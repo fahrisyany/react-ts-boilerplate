@@ -1,6 +1,6 @@
 import { call, put, takeEvery } from 'redux-saga/effects'
 import * as type from '../types/data.types'
-import { environment } from '../../environments/environments'
+import { environment } from '../../../environments/environments'
 
 const apiUrl = environment.endpoints.jsonPlaceholder.baseUrl
 

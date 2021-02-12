@@ -7,9 +7,9 @@ const LoginPage: React.FC = () => {
     return (
         <div id="login" className="page d-flex flex-column justify-content-center align-items-center">
             <Card className="login-container">
-                    <Card.Title>
-                        <h2>Login Account</h2>
-                    </Card.Title>
+                <Card.Title>
+                    <h2>Login Account</h2>
+                </Card.Title>
                 <Card.Body>
                     <Form className="login-form d-flex flex-column justify-content-center">
                         <Form.Group controlId="formBasicEmail">
@@ -18,11 +18,10 @@ const LoginPage: React.FC = () => {
                         <Form.Group controlId="formBasicPassword">
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Button className="justify-content-end" variant="primary" type="submit">
+                        <Button className="justify-content-end" type="submit">
                             Login
                          </Button>
                     </Form>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
             </Card>
         </div>

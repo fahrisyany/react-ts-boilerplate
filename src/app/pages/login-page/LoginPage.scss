@@ -5,16 +5,16 @@
   background-color: $bg-color;
   .login-container {
     width: 22rem;
-    box-shadow: 28px 28px 50px 0 rgba(5,15,31,0.16), -23px -23px 45px 0 #FFFFFF;
+    box-shadow: 28px 28px 50px 0 rgba(5, 15, 31, 0.16),
+      -23px -23px 45px 0 #ffffff;
     border-radius: 16px;
     border: none;
-    padding: 1.2rem;
+    padding: 1.2em;
     .login-form {
-
-        button{
-            border-radius: 8px;
-            background-color: lighten($color: #007bff, $amount: 10);
-        }
+      button {
+        border-radius: 8px;
+        background-color: lighten($color: #007bff, $amount: 10);
+      }
     }
   }
 }
